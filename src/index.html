@@ -3,17 +3,12 @@
   <head>
     <title></title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <link  rel="stylesheet" type="text/css" href="style.css?2">
     <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
-
   </head>
 
   <%= !json.project.embedded ? "<body>" : "<body is='responsive-body'>" %>
-
-
 
     <div class="container">
     
@@ -24,50 +19,49 @@
 
       <% json.top10.forEach(function(rest) { %>
         <div class="top10">
-
+ 
           <div id="<%= rest.id %>" class="number"><%= rest.id %></div>
+          
           <div class="restaurant"><%= rest.name %></div>
+          
           <div class="location">
             <a href="<%= rest.map %>" target="_blank"><%= rest.location %></a> 
           </div>
-          
 
-            <div class="image">
-              <img src="<%= rest.img %>">
-              </div>
-            
-
+          <div class="image">
+            <img src="<%= rest.img %>">
+            <div class="byline"><%= rest.photographer %></div>
+          </div>            
           
           <div class="description">
             <p><%= rest.description %></p>
           </div>
+
           <div class="execution">
-            <p><b>Execution: </b><span class="rating"><%= rest.exec_rating %></span>/25<br><%= rest.execution %></p>
-            
+            <p><b>Execution: </b><span class="rating"><%= rest.exec_rating %></span>/25<br><%= rest.execution %></p>  
           </div>
+
           <div class="value">
-            <p><b>Value: </b><span class="rating"><%= rest.value_rating %></span>/25<br><%= rest.value %></p>
-            
+            <p><b>Value: </b><span class="rating"><%= rest.value_rating %></span>/25<br><%= rest.value %></p> 
           </div>
+
           <div class="creativity">
-            <p><b>Creativity: </b><span class="rating"><%= rest.creativity_rating %></span>/25<br><%= rest.creativity %></p>
-            
+            <p><b>Creativity: </b><span class="rating"><%= rest.creativity_rating %></span>/25<br><%= rest.creativity %></p>  
           </div>
+
           <div class="flavor">
-            <p><b>Flavor: </b><span class="rating"><%= rest.flavor_rating %></span>/25<br><%= rest.flavor %></p>
-            
+            <p><b>Flavor: </b><span class="rating"><%= rest.flavor_rating %></span>/25<br><%= rest.flavor %></p>  
           </div>
+
           <div>
             <p><b>Total: </b><span class="total"><%= rest.total %></span><br></p>
           </div>
+          
           <hr>
+        
         </div>
-
       <% }); %>
-
     </div>
 
-
-    <script src="app.js" async></script>
   </body>
 </html>

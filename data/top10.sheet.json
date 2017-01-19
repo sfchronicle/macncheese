@@ -14,7 +14,8 @@
     "creativity_rating": 15,
     "flavor": "The Red Hawk and Wagon Wheel lent the sauce a pleasant and understated funk, but the breadcrumb topping had no discernible flavor. Frankly, for a place that specializes in cheese, I expected so much more.",
     "flavor_rating": 19,
-    "total": 67
+    "total": 67,
+    "photographer": "Sarah Fritsche, The Chronicle"
   },
   {
     "id": 9,
@@ -32,7 +33,8 @@
     "flavor": "The sauce, which was accented with nutmeg, garlic powder and Tabasco, is boldly flavored — almost to the point of being overly so.",
     "flavor_rating": 19,
     "total": 74,
-    "quote": "The first"
+    "quote": "The first",
+    "photographer": "Sarah Fritsche, The Chronicle"
   },
   {
     "id": 8,
@@ -49,7 +51,8 @@
     "creativity_rating": 16,
     "flavor": "While pleasantly cheesy, the sauce could have used more assertiveness in the seasoning department.",
     "flavor_rating": 20,
-    "total": 79
+    "total": 79,
+    "photographer": "Craig Lee, Special To The Chronicle "
   },
   {
     "id": 7,
@@ -67,7 +70,8 @@
     "flavor": "This mac was more cheesy than creamy and the “proprietary blend” (as the fellow behind the counter called it) offered an immensely deep, satisfying cheesiness. In fact, it had the best cheese flavor — veering into umami bomb territory — of all the versions I tried.",
     "flavor_rating": 25,
     "total": 81,
-    "quote": "Best flavor"
+    "quote": "Best flavor",
+    "photographer": "Sarah Fritsche, The Chronicle"
   },
   {
     "id": 6,
@@ -84,7 +88,8 @@
     "creativity_rating": 17,
     "flavor": "The flavor is mild with a subtle sweetness, thanks in part to the garlic in the bechamel.",
     "flavor_rating": 20,
-    "total": 83
+    "total": 83,
+    "photographer": "Sarah Fritsche, The Chronicle"
   },
   {
     "id": 5,
@@ -92,7 +97,7 @@
     "name": "Tipsy Pig",
     "location": "2231 Chestnut St., S.F.",
     "map": "https://www.google.com/maps/place/The+Tipsy+Pig/@37.8001359,-122.4422508,17z/data=!4m13!1m7!3m6!1s0x808580d6bde69ee5:0x28485af84ab657bc!2s2231+Chestnut+St,+San+Francisco,+CA+94123!3b1!8m2!3d37.8001359!4d-122.4400568!3m4!1s0x808580d6bdede197:0xacc96d57fe39aff1!8m2!3d37.8001359!4d-122.4400568",
-    "description": "Back in 2009, Michael Bauer called the Marina bar’s version “one of the best mac and cheeses on this planet.” Naturally, it was worth a revisit. Eight years later, it’s still a solid representation — although the price has nearly doubled, up from $8 to $14. Happily, if you order from the bar’s happy hour menu (5:30-6:30 p.m., Mon.-Thurs.) a dinner-size portion is just $7.",
+    "description": "Back in 2009, Michael Bauer <a target='_blank' href='http://www.sfchronicle.com/restaurants/article/Much-to-squeal-about-at-Tipsy-Pig-2300138.php'>called</a> the Marina bar's version “one of the best mac and cheeses on this planet.” Naturally, it was worth a revisit. Eight years later, it’s still a solid representation — although the price has nearly doubled, up from $8 to $14. Happily, if you order from the bar’s happy hour menu (5:30-6:30 p.m., Mon.-Thurs.) a dinner-size portion is just $7.",
     "execution": "With each bite, the small — bordering on dainty — tubes of pleasantly tender ditalini pasta felt like they were dancing in my mouth. However, the Parmesan gratin topping had a powder-fine texture of overly processed breadcrumbs that, when combined with the silky smooth sauce, made the mixture turn unpleasantly gritty. A less fine texture on the topping would improve things greatly.",
     "exec_rating": 21,
     "value": "$14 (dinner) for approximately 2 cups worth.",
@@ -101,7 +106,8 @@
     "creativity_rating": 20,
     "flavor": "The otherwise perfect sauce, which besides blue cheese uses a mix of Dutch Gouda and white cheddar, could have used a smidge more salt and pepper. ",
     "flavor_rating": 24,
-    "total": 87
+    "total": 87,
+    "photographer": "Craig Lee, Special To The Chronicle "
   },
   {
     "id": 4,
@@ -119,7 +125,8 @@
     "flavor": "The subtly seasoned bechamel, with a hint of garlic, was finished with two kinds of cheddar cheese, plus Asiago for a little funk. The dusting of paprika and chopped parsley that finished the dish was a nice touch.",
     "flavor_rating": 22,
     "total": 90,
-    "quote": "Best value"
+    "quote": "Best value",
+    "photographer": "Sarah Fritsche, The Chronicle"
   },
   {
     "id": 3,
@@ -137,11 +144,12 @@
     "flavor": "The understated bechamel was enriched with sharp white cheddar and a whisper of nutmeg. Delicate and lovely.",
     "flavor_rating": 23,
     "total": 91,
-    "quote": "Most elegant"
+    "quote": "Most elegant",
+    "photographer": "Craig Lee, Special To The Chronicle "
   },
   {
     "id": 2,
-    "img": "http://projects.sfchronicle.com/2017/embed-maccheese/2.jpg",
+    "img": "http://ww2.hdnux.com/photos/47/24/65/10308965/7/1024x1024.jpg",
     "name": "Mac Daddy",
     "location": "1453 18th St., S.F.",
     "map": "https://www.google.com/maps/place/Mac+Daddy/@37.7624014,-122.3992648,17z/data=!4m13!1m7!3m6!1s0x808f7fcbcaed805d:0x4123ca3ea7ac0431!2s1453+18th+St,+San+Francisco,+CA+94107!3b1!8m2!3d37.7624014!4d-122.3970708!3m4!1s0x808f7fcbcaed805d:0xb90f7b16f43a5d28!8m2!3d37.7624014!4d-122.3970708",
@@ -154,7 +162,8 @@
     "creativity_rating": 24,
     "flavor": "Flavors for both the classic and short rib macs were fresh and bright.",
     "flavor_rating": 25,
-    "total": 97
+    "total": 97,
+    "photographer": "Jen Fedrizzi, Special To The Chronicle "
   },
   {
     "id": 1,
@@ -172,6 +181,7 @@
     "flavor": "The flavors for both the classic and Hawaiian were balanced, bright and perfectly seasoned.",
     "flavor_rating": 25,
     "total": 99,
-    "quote": "The winner"
+    "quote": "The winner",
+    "photographer": "John Storey, Special To The Chronicle "
   }
 ]

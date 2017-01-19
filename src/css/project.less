@@ -44,6 +44,7 @@
 p{
 	font-family:@med-graphics;
 	font-size:0.9em;
+  padding:0;
 
 	@media @mobile{
   font-size:0.7em;
@@ -92,6 +93,18 @@ p{
 }
 .description{
 	 margin-top: 1em;
+   a{
+   color:#C12020;
+
+   &:hover{
+   color:lighten(#C12020, 20%);
+   }
+   }
+}
+
+.byline{
+  font-size: 0.6em;
+  line-height: 1;
 }
 
 .image{
