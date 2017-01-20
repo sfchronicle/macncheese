@@ -13,7 +13,6 @@
 
 .top10{
 	margin-bottom:1em;
-	padding-bottom:2em;
 
 	hr{
 	width:90%;
@@ -81,9 +80,9 @@ p{
 
   a{
   	color:#546c8a;
-    border-bottom: 2px solid #546c8a;
+    border-bottom: 2px solid @yellow;
     &:hover{
-    	border-bottom-color:@yellow;
+    	border-bottom-color:#546c8a;
     }
   }
 
@@ -92,14 +91,15 @@ p{
   }
 }
 .description{
-	 margin-top: 1em;
-   a{
-   color:#C12020;
+	margin-top: 1em;
+   
+  a{
+    border-bottom: 2px solid @yellow;
 
-   &:hover{
-   color:lighten(#C12020, 20%);
-   }
-   }
+    &:hover{
+      border-bottom-color:#546c8a;
+    }
+  }
 }
 
 .byline{

@@ -12,6 +12,7 @@ var url = require("url");
 module.exports = function(grunt) {
 
   grunt.loadNpmTasks("grunt-contrib-connect");
+  grunt.loadNpmTasks('grunt-open');
   
   grunt.config.merge({
     connect: {
@@ -41,6 +42,12 @@ module.exports = function(grunt) {
             return ware;
           }
         }
+      }
+    },
+    open: {
+      build : {
+        path : 'http://localhost:8000/',
+        app: 'Google Chrome'
       }
     }
   })
